@@ -46,15 +46,15 @@
 >* 部分模块的设计和开发.编写公共模板代码.
 >* 给小组成员分配任务并指导完成开发
 >* 负责git代码审核及合并.测试环境,生产环境的部署和发布.
-	* Maven+Bamboo+Linux Shell 一键发布
->* RPC解决方案;
-	* thrit/rabbitmq
+>* 消息通知解决方案(RPC解决方案);
+	* 使用thrift/rabbitmq完成多个系统间的数据同步(消息通知/通讯),解决不同进程间相互调用、通讯的问题.在分布式开发,大大降低系统之间的耦合度.
 >* SSO-单点登录;
-	* yale cas
+	* CAS(Central Authentication Service)+Spring-Security 使得在多个应用系统中，用户只需要登录一次就可以访问所有相互信任的应用系统.
 >* 缓存解决方案;
-	* redis/timesten/rabbitmq
->* 消息通知解决方案;
-	* thrit/rabbitmq
+	* 使用redis + 动态代理(spring aop)实现产品查询的缓存及统计;
+	* 使用rabbitmq 异步消息通知实现缓存数据库与实体数据之间数据同步;
+	* 使用timesten 实现缓存数据库分库,oracle triggers + java + jotm 实现数据同步;
+
 
 >(2011 ~ 2013) 软件开发工程师 
 主要任是根据项目需求完成各个模块的开发.

@@ -40,7 +40,7 @@
 * 使用Oracle + TimesTen搭建数据库层级缓存,提供数据的实时计算，时时响应；
 * 使用Maven+Bamboo+Linux Shell，实现项目代码的自动化编译、打包、发布.
 
-** 项目职责: **
+**项目职责: **
 
 >(2013 ~ 2015) 项目组长.
 >* 部分模块的设计和开发.编写公共模板代码.
@@ -76,17 +76,22 @@
 
 ##技能清单
 
-以下均为我熟练使用的技能
-
 * 编程语言：java/j2ee/javascript/jquery/dwr
-* 开发工具: Inteillj idea/Myeclipse/pl sql/powerDesigner/tomcat
-* 服务端框架: yale cas/spring/struts2/hibernate
-* 数据库:oracle
-* 内存数据库:redis,timesten
+* 内存数据库:redis/timesten
 * sso: yale cas
 * 消息通知:thrift/rabbitmq
-* 项目管理:svn/git+maven
+* 开发工具: Inteillj idea/Myeclipse/pl sql/powerDesigner/tomcat
+* 服务端框架: spring/struts2/hibernate
+* 数据库:oracle
+* 项目管理:svn/git+maven/jira
 * 缓存框架:oschache
+
+
+##自我总结
+*刚进公司的时候由于技术很差连个多表分组查询做起来都困难,所以一直做的是增删改查,一直在spring struts2 hibernate javascript jquery dwr 中徘徊.
+* 三年下来，有了意外之喜，之前好久没弄懂的的东西原来这么如此啊。比如类和类的关系，在第一家公司我只知道用继承；第二家公司我了解到需要组合；
+第三家公司发现还可以委托。再比如在第一家公司我只懂如何用泛型；在第二家公司知道了泛型的原理；在第三家公司经常编写泛型类给别人用。尤其是这些框架性的代码写起来特别有成就感，也让我慢慢具备架构师的潜力。 
+* 平凡，普通。在机遇中显得失败，在失败中显得有韧劲
 
 
 ##致谢

@@ -119,8 +119,6 @@
 * 项目管理:svn/git+maven/jira
 * 缓存框架:oschache
 
-**项目职责：**
-
 
 ##自我评价
 

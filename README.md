@@ -117,7 +117,7 @@
 * 服务端框架: spring/struts2/hibernate
 * 数据库:oracle
 * 项目管理:svn/git+maven/jira
-* 缓存框架:oschache
+* 缓存框架:OSCache
 
 
 ##自我评价
